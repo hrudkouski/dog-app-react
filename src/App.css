@@ -1,0 +1,41 @@
+.counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: #6b646b;
+}
+
+.display {
+    font-size: 50px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    width: 520px;
+    margin: 100px auto 10px auto;
+
+}
+
+.item {
+    border-radius: 50%;
+    width: 128px;
+    height: 128px;
+    text-align: center;
+    overflow: hidden;
+    display: inline-block;
+    background-color: gold;
+}
+
+.photo {
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+}
+
+.show {
+    visibility: visible;
+}
